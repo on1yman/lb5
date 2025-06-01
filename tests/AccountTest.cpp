@@ -34,4 +34,3 @@ TEST(AccountTest, ChangeBalanceWithoutLockThrows)
     Account acc(1, 100);
     ASSERT_THROW(acc.ChangeBalance(50), std::runtime_error);
 }
-
